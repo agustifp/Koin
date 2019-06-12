@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.afebrerp.com.secondfeature">
+
+    <application>
+        <activity android:name="android.afebrerp.com.secondfeature.presentation.SecondFeatureActivity"></activity>
+    </application>
+
+</manifest>
