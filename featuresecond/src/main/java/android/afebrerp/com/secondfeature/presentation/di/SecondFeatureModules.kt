@@ -5,12 +5,12 @@ import android.afebrerp.com.secondfeature.domain.repository.UserRepository
 import android.afebrerp.com.secondfeature.domain.usecase.GetUserUseCase
 import org.koin.dsl.module.module
 
-val repositoryModule = module {
+val repositoryModule = module(override = true) {
     single<UserRepository> { UserRepositoryImpl() }
 }
 
-val useCaseModule = module {
-    factory {GetUserUseCase(get())}
+val useCaseModule = module(override = true) {
+    factory { GetUserUseCase(get()) }
 }
 
 val secondFeatureModules = listOf(
