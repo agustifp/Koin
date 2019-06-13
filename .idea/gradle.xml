@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/commonsview" />
             <option value="$PROJECT_DIR$/featurefirst" />
             <option value="$PROJECT_DIR$/featuresecond" />
           </set>

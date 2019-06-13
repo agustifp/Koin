@@ -1,12 +1,11 @@
 package android.afebrerp.com.firstfeature
 
 import android.afebrerp.com.firstfeature.navigator.NavigatorFirstFeatureOut
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_first_feature.*
-import org.koin.standalone.KoinComponent
-import org.koin.standalone.StandAloneContext.loadKoinModules
-import org.koin.standalone.inject
+import android.support.v7.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_first_feature.buttonGoToSecond
+import org.koin.core.KoinComponent
+import org.koin.core.inject
 
 
 class FirstFeatureActivity : AppCompatActivity() , KoinComponent {
@@ -19,6 +18,6 @@ class FirstFeatureActivity : AppCompatActivity() , KoinComponent {
         buttonGoToSecond.setOnClickListener{
             navigatorFirstFeatureOut.goToSecondFeatureActivity(this)
         }
-        loadKoinModules()
+        //loadKoinModules()
     }
 }

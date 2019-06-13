@@ -2,8 +2,4 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="android.afebrerp.com.firstfeature">
 
-    <application>
-        <activity android:name="android.afebrerp.com.firstfeature.FirstFeatureActivity"></activity>
-    </application>
-
 </manifest>
