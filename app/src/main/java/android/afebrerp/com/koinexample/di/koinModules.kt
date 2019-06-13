@@ -4,11 +4,6 @@ import android.afebrerp.com.koinexample.navigator.NavigatorFirstOutImpl
 import android.afebrerp.com.firstfeature.navigator.NavigatorFirstFeatureOut
 import org.koin.dsl.module
 
-object KoinModulesUtils{
-
-
-}
-
 val navigatorModule = module {
     single<NavigatorFirstFeatureOut> { NavigatorFirstOutImpl() }
 }

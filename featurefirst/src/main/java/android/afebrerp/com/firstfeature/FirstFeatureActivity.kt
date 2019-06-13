@@ -18,6 +18,5 @@ class FirstFeatureActivity : AppCompatActivity() , KoinComponent {
         buttonGoToSecond.setOnClickListener{
             navigatorFirstFeatureOut.goToSecondFeatureActivity(this)
         }
-        //loadKoinModules()
     }
 }
